@@ -36,7 +36,7 @@ PRIV = {"en": ("Privacy Policy", [
  sec("7. Children", p("The App is not directed to children under 13 and we do not knowingly collect their personal information.")),
  sec("8. Your rights", p("Because your entries stay on your device, you can access, edit, export and delete them in the App. For data handled by the services in section 3 (EEA/UK GDPR, California CCPA, Turkish KVKK No. 6698 or other laws) you may contact us to ask about, correct or delete the related information, and you may complain to your local data protection authority.")),
  sec("9. Changes", p("We may update this policy; the date above shows the latest version. Material changes will be reflected in the App or on this page.")),
- sec("10. Contact", p('<a href="mailto:privacy@foodsymptomdetective.com">privacy@foodsymptomdetective.com</a>')),
+ sec("10. Contact", p('<a href="mailto:support@neron.app">support@neron.app</a>')),
 ]), "tr": ("Gizlilik Politikası", [
  p('Food Symptom Detective ("Uygulama", "biz"), çevrimdışı çalışmayı esas alan bir yiyecek ve semptom takip uygulamasıdır. Bu politika neyin saklandığını, neyin cihazınızdan çıktığını ve nedenini açıklar.'),
  box("<b>Önemli:</b> oluşturduğunuz yiyecek, semptom ve sağlık/yaşam tarzı kayıtları cihazınızda saklanır. Bunları alan bir sunucu işletmiyoruz ve kullanıcı hesabı yoktur."),
@@ -54,7 +54,7 @@ PRIV = {"en": ("Privacy Policy", [
  sec("7. Çocuklar", p("Uygulama 13 yaş altı çocuklara yönelik değildir ve onların kişisel bilgilerini bilerek toplamayız.")),
  sec("8. Haklarınız", p("Kayıtlarınız cihazınızda kaldığı için bunlara Uygulama içinden erişebilir, düzenleyebilir, dışa aktarabilir ve silebilirsiniz. 3. bölümdeki hizmetlerce işlenen veriler için (AEA/BK GDPR, Kaliforniya CCPA, 6698 sayılı KVKK veya diğer mevzuat) bizimle iletişime geçerek ilgili bilgileri sorabilir, düzeltilmesini veya silinmesini isteyebilir ve yerel veri koruma kurumuna şikâyette bulunabilirsiniz.")),
  sec("9. Değişiklikler", p("Bu politikayı güncelleyebiliriz; yukarıdaki tarih son sürümü gösterir.")),
- sec("10. İletişim", p('<a href="mailto:privacy@foodsymptomdetective.com">privacy@foodsymptomdetective.com</a>')),
+ sec("10. İletişim", p('<a href="mailto:support@neron.app">support@neron.app</a>')),
 ])}
 
 TERMS = {"en": ("Terms of Service", [
@@ -67,7 +67,7 @@ TERMS = {"en": ("Terms of Service", [
  sec("6. Intellectual property", p("The App, its design and code belong to us. You receive a limited, non-exclusive, non-transferable, revocable licence to use it personally.")),
  sec("7. Disclaimer and liability", p('The App is provided "as is" and "as available". To the extent permitted by law, we do not guarantee that patterns are accurate or complete, we are not liable for health decisions made from the App or for indirect or consequential damages, and our total liability is limited to the amount you paid for the App in the previous 12 months. Nothing here limits rights you have under mandatory consumer-protection law.')),
  sec("8. Changes and termination", p("We may update these Terms or suspend access for misuse. Continued use after an update means you accept it. You can stop at any time by uninstalling.")),
- sec("9. Contact", p('<a href="mailto:support@foodsymptomdetective.com">support@foodsymptomdetective.com</a>')),
+ sec("9. Contact", p('<a href="mailto:support@neron.app">support@neron.app</a>')),
 ]), "tr": ("Kullanım Koşulları", [
  p('Bu Koşullar, Food Symptom Detective mobil uygulamasını ("Uygulama") kullanımınızı düzenler. Uygulamayı kullanarak bunları kabul etmiş olursunuz. Kabul etmiyorsanız lütfen kullanmayın.'),
  sec("1. Tıbbi tavsiye değildir", box("Food Symptom Detective kişisel bir takip aracıdır. Teşhis koymaz, tedavi etmez, tıbbi tavsiye vermez ve bir sağlık uzmanının yerini tutmaz.", True), ul("Gösterilen örüntüler yalnızca sizin girdiğiniz bilgilere dayanır ve bilgilendirme amaçlıdır.", "Uygulamadaki bir şey nedeniyle profesyonel tavsiyeyi geciktirmeyin veya göz ardı etmeyin.", "Acil durumda yerel acil hizmetlerle iletişime geçin.")),
@@ -78,7 +78,7 @@ TERMS = {"en": ("Terms of Service", [
  sec("6. Fikri mülkiyet", p("Uygulama, tasarımı ve kodu bize aittir. Size kişisel kullanım için sınırlı, münhasır olmayan, devredilemez ve geri alınabilir bir lisans verilir.")),
  sec("7. Sorumluluk reddi", p('Uygulama "olduğu gibi" ve "mevcut haliyle" sunulur. Yasaların izin verdiği ölçüde; örüntülerin doğru veya eksiksiz olduğunu garanti etmeyiz, Uygulamadan hareketle verilen sağlık kararlarından veya dolaylı/sonuç olarak doğan zararlardan sorumlu değiliz ve toplam sorumluluğumuz son 12 ayda Uygulama için ödediğiniz tutarla sınırlıdır. Bu hükümler, emredici tüketici koruma mevzuatından doğan haklarınızı sınırlamaz.')),
  sec("8. Değişiklik ve fesih", p("Bu Koşulları güncelleyebilir veya kötüye kullanım halinde erişimi askıya alabiliriz. Güncellemeden sonra kullanmaya devam etmeniz kabul anlamına gelir. İstediğiniz zaman Uygulamayı silerek bırakabilirsiniz.")),
- sec("9. İletişim", p('<a href="mailto:support@foodsymptomdetective.com">support@foodsymptomdetective.com</a>')),
+ sec("9. İletişim", p('<a href="mailto:support@neron.app">support@neron.app</a>')),
 ])}
 
 L = {"en": dict(home="Home", other="Türkçe", priv="Privacy Policy", terms="Terms of Service", upd="Last updated", lc="en"),
