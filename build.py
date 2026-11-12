@@ -22,7 +22,7 @@ def ul(*i): return "<ul>" + "".join(f"<li>{x}</li>" for x in i) + "</ul>"
 
 PRIV = {"en": ("Privacy Policy", [
  p('Food Symptom Detective ("the App", "we") is an offline-first food and symptom tracker. This policy explains what is stored, what leaves your device and why.'),
- box("<b>Key point:</b> the food, symptom and wellness entries you create are stored on your device. We do not run servers that receive them, and we have no user accounts."),
+ box("<b>Key point:</b> your meal, symptom, medication and wellness logs are stored on your device and are not uploaded or sold, and we have no user accounts. Anonymous usage statistics (Firebase Analytics, counts and flags), crash reports (Crashlytics) and purchase data via the app stores and RevenueCat (an anonymous ID) do leave your device, as described in section 3."),
  sec("1. Data you enter", p("You can log the following in the App:"), ul("Meals, foods and ingredients", "Symptoms, severity, timing and notes", "Medication", "Wellness details such as stress, sleep, hydration, exercise and menstrual cycle information"), p("This may be sensitive health-related information. It is kept in the App's local database on your device and is not uploaded by us.")),
  sec("2. Where data is stored", ul("Local on-device storage only (SQLite), inside the App's sandbox.", "No sign-up or account is required, and we cannot see, recover or restore your entries.", "Uninstalling the App deletes its data. You can also delete entries or clear data inside the App.", "If you use the in-app export or report feature, the file is created on your device and goes only where you choose to share it.")),
  sec("3. Information collected by service providers",
@@ -40,7 +40,7 @@ PRIV = {"en": ("Privacy Policy", [
  sec("10. Contact", p('<a href="mailto:support@neron.app">support@neron.app</a>')),
 ]), "tr": ("Gizlilik Politikası", [
  p('Food Symptom Detective ("Uygulama", "biz"), çevrimdışı çalışmayı esas alan bir yiyecek ve semptom takip uygulamasıdır. Bu politika neyin saklandığını, neyin cihazınızdan çıktığını ve nedenini açıklar.'),
- box("<b>Önemli:</b> oluşturduğunuz yiyecek, semptom ve sağlık/yaşam tarzı kayıtları cihazınızda saklanır. Bunları alan bir sunucu işletmiyoruz ve kullanıcı hesabı yoktur."),
+ box("<b>Önemli:</b> öğün, semptom, ilaç ve sağlık/yaşam tarzı kayıtlarınız cihazınızda saklanır; yüklenmez ve satılmaz, kullanıcı hesabı da yoktur. Anonim kullanım istatistikleri (Firebase Analytics, sayı ve işaretler), çökme raporları (Crashlytics) ve uygulama mağazaları ile RevenueCat üzerinden satın alma verileri (anonim bir kimlik) ise 3. bölümde anlatıldığı gibi cihazınızdan çıkar."),
  sec("1. Girdiğiniz veriler", p("Uygulamada şunları kaydedebilirsiniz:"), ul("Öğünler, yiyecekler ve içerikler", "Semptomlar, şiddeti, zamanı ve notlar", "İlaç", "Stres, uyku, su tüketimi, egzersiz ve adet döngüsü gibi iyi oluş bilgileri"), p("Bunlar hassas sağlık verisi sayılabilir. Uygulamanın cihazınızdaki yerel veritabanında tutulur ve tarafımızdan yüklenmez.")),
  sec("2. Veriler nerede saklanır", ul("Yalnızca cihaz üzerinde yerel olarak (SQLite), uygulamanın korumalı alanında.", "Üyelik veya hesap gerekmez; kayıtlarınızı göremez, kurtaramaz veya geri yükleyemeyiz.", "Uygulamayı silmek verilerini siler. Uygulama içinden tek tek kayıtları veya tüm verileri de silebilirsiniz.", "Uygulama içi dışa aktarma/rapor özelliğini kullanırsanız dosya cihazınızda oluşturulur ve yalnızca paylaşmayı seçtiğiniz yere gider.")),
  sec("3. Hizmet sağlayıcıların topladığı bilgiler",
